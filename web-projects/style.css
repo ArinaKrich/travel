@@ -1,0 +1,148 @@
+/**font-family: 'Crimson Text', serif;
+font-family: 'Nunito', sans-serif;**/
+body{
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  margin: 0;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+ /*HEADER*/
+.header{
+  width: 100%;
+  position: absolute;
+  padding-top: 37px;
+  left: 0;
+  top:0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width:100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+/*INTRO*/
+.intro{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-title{
+  font-size: 76px;
+  color: #0F214F;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 91.7%;
+  padding: 0 0 20px 0;
+}
+.intro_inner{
+  width: 100%;
+  max-width: 620px;
+  margin:0;
+}
+.intro-sup{
+  font-weight: 300;
+  font-size: 18px;
+  color: #3D3D3D;
+  letter-spacing: 0.015em;
+  max-width: 597px;
+}
+.into_buttom{
+  display: block;
+  color: #FBB667;
+  width: 579px;
+  height: 73px;
+  border-radius: 100px;
+  font-size: 18px;
+  padding-left: 27px;
+  font-weight: 600;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.21);
+  border: 1px solid white;
+  outline: none;
+  margin: 34px 0 0 0;
+  line-height: 25px;
+}
+.intro-input{
+  max-width: 579px;
+  height: 73px;
+
+}
+.intro-sub{
+  position: absolute;
+  width: 172px;
+  height: 47px;
+  color:white;
+  background-color:#FBB667;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+/*.into_sub{
+  width: 172px;
+  height: 47px;
+  color:white;
+  background-color:#FBB667;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;*/
+
+}
+form{
+  position: relative;
+  width: 100%;
+  max-width: 579px;
+
+
+}
+/*NAV*/
+.nav{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav_link{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #BFBFBF;
+  margin: 0px 20px;
+}
+
+.nav_link:hover{
+  color: #FBB667;
+}
+.Book{
+  color: white;
+  background-color: #FBB667;
+  width: 172px;
+  height: 45px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-family: "Nunito";
+  font-weight: 700;
+  border: 0px;
+  box-shadow:  0px 5px 8px rgba(251, 182, 103, 0.58);
+}
+.Book:active{
+  background-color: #E89F56;
+}
